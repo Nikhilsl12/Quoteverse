@@ -10,5 +10,23 @@
     "text": "First, solve the problem. Then, write the code.",
     "author": "John Johnson",
     "tags": ["programming", "advice"]
+  },
+  {
+    "id": 3,
+    "text": "Programs must be written for people to read, and only incidentally for machines to execute.",
+    "author": "Harold Abelson",
+    "tags": ["programming", "best practices"]
+  },
+  {
+    "id": 4,
+    "text": "Any sufficiently advanced technology is indistinguishable from magic.",
+    "author": "Arthur C. Clarke",
+    "tags": ["technology", "inspiration"]
+  },
+  {
+    "id": 5,
+    "text": "Talk is cheap. Show me the code.",
+    "author": "Linus Torvalds",
+    "tags": ["programming", "motivation"]
   }
 ]
