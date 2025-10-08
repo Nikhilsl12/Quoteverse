@@ -1,1 +1,35 @@
 @import "tailwindcss";
+
+@theme {
+  /* === COLOR PALETTE === */
+  --color-bg: #f9fafb; /* very light gray - main background */
+  --color-surface: #ffffff; /* card / container background */
+  --color-primary: #84cc16; /* fresh green accent */
+  --color-primary-light: #a3e635; /* lighter variant of primary */
+  --color-secondary: #22d3ee; /* calming cyan accent */
+  --color-text: #1f2937; /* dark gray for main text */
+  --color-text-light: #4b5563; /* soft gray for secondary text */
+  --color-border: #e5e7eb; /* subtle borders and dividers */
+
+  /* === TYPOGRAPHY === */
+  --font-inter: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-merri: "Merriweather", Georgia, serif;
+  --font-tourney: "Tourney", sans-serif;
+}
+
+html {
+  background-color: #f9fafb;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-inter);
+  color: #1f2937;
+}
+
+p {
+  font-family: var(--font-merri);
+  color: #1f2937;
+}
